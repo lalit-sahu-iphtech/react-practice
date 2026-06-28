@@ -1,0 +1,24 @@
+.product {
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    text-align: center;
+    width: 220px;
+    height: 151px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product h1 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 8px 0;
+    color: #555;
+}
