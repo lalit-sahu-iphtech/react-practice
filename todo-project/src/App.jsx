@@ -24,12 +24,29 @@
 //   )
 // }
 
+// import './App.css'
+// import Lottery from "./Lottery.jsx"
+// function App() {
+//   return (
+//     <>
+//    <Lottery n = {3} isWinningSum={15}/>
+   
+     
+//     </>
+//   )
+// }
+
+
 import './App.css'
 import Lottery from "./Lottery.jsx"
+import {sum} from "./helper.jsx"
 function App() {
+  let winCodn = (ticket) =>{
+    return sum(ticket) === 15;
+  }
   return (
     <>
-   <Lottery n = {3} isWinningSum={15}/>
+   <Lottery n = {3} winCodn={winCodn}/>
    
      
     </>
