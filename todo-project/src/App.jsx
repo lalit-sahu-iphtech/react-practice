@@ -37,18 +37,29 @@
 // }
 
 
-import './App.css'
-import Lottery from "./Lottery.jsx"
-import {sum} from "./helper.jsx"
-function App() {
-  let winCodn = (ticket) =>{
-    return sum(ticket) === 15;
-  }
-  return (
-    <>
-   <Lottery n = {3} winCodn={winCodn}/>
+// import './App.css'
+// import Lottery from "./Lottery.jsx"
+// import {sum} from "./helper.jsx"
+// function App() {
+//   let winCodn = (ticket) =>{
+//     return sum(ticket) === 15;
+//   }
+//   return (
+//     <>
+//    <Lottery n = {3} winCodn={winCodn}/>
    
      
+//     </>
+//   )
+// }
+
+// forms in react
+import Forms from "./Forms.jsx"
+
+function App(){
+  return(
+    <>
+    <Forms/>
     </>
   )
 }
