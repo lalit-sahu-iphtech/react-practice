@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background: lightgray;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.card {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
