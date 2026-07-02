@@ -1,0 +1,25 @@
+body{
+  font-family: Arial;
+  padding:20px;
+}
+
+input{
+  display:block;
+  margin:10px 0;
+  padding:8px;
+}
+
+button{
+  padding:8px 12px;
+  margin:5px;
+}
+
+div{
+  margin-bottom:20px;
+}
+
+@media(max-width:768px){
+  body{
+    padding:10px;
+  }
+}
