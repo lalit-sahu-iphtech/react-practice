@@ -434,7 +434,7 @@ Through this project, practiced:
 Add your repository link here:
 
 ```text
-https://github.com/your-github-link
+https://github.com/lalit-sahu-iphtech/react-practice/tree/main/student-dashboard
 ```
 
 ---
